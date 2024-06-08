@@ -6,5 +6,5 @@ urlpatterns = [path("", views.index, name='index'),
                path("contactn/<int:phone_num>", views.contact_num, name="cantact_num"),
                path("newurl/",views.newurl, name="newurl"),
                path("oldurl/",views.oldurl, name="oldurl"),
-               path("oldurl22/",views.oldurl, name="oldurl2")
+               path("oldurl2/",views.oldurl, name="oldurl2")
                ]
