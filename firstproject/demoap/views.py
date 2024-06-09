@@ -9,7 +9,7 @@ def index(request):
     return HttpResponse("Hi welcome to my first projct")
 
 def contact(request):
-    return HttpResponse("Dineshkumar S\ndharmapuri")
+    return HttpResponse("Dineshkumar S\n dharmapuri")
 
 def contact_num (request, phone_num):
     return HttpResponse(f"your contact num is {phone_num}")
