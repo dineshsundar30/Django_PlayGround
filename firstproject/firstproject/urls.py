@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import path,include
-
+handler404 = 'firstproject.views.pag_not_found'
 urlpatterns = [
     path("",include("demoap.urls")),
     path('admin/', admin.site.urls),
